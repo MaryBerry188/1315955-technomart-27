@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Мария Баринова](https://up.htmlacademy.ru/htmlcss/27/user/1315955).
-* Наставник: [Павел Бубликов].(https://htmlacademy.ru/profile/pbuba).
+* Наставник: Павел Бубликов.(https://htmlacademy.ru/profile/pbuba).
 
 ---
 
