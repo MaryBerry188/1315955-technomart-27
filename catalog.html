@@ -7,12 +7,13 @@
 <body>
 <header>
     <section>
+      <h1 class="visually-hidden">Интернет-магазин строительных материалов и инструментов для ремонта Техномарт</h1>
         <div>
             <a href="index.html">Техномарт</a>
         </div>
         <div>
-            <form>
-                <input type="text" name="search" placeholder="Поиск:">
+            <form class="search-form" method="get">
+                <input type="search" name="search" placeholder="Поиск:">
             </form>
         </div>
         <div>
@@ -23,7 +24,7 @@
             </ul>
         </div>
         <div>
-            <h1> Интернет-магазин строительных материалов<br> и инструментов для ремонта</h1>
+            <p> Интернет-магазин строительных материалов<br> и инструментов для ремонта</p>
             <a href="tel:+78125550555">+7 (812) 555-05-55</a>
             <p>г. Санкт-Петербург, ул. Б. Конюшенная, дю 19/8</p>
         </div>
@@ -52,30 +53,32 @@
         <nav>
             <ul>
             <li><a href="index.html">Главная</a></li>
-            <li><a href="">Каталог</a></li>
+            <li><a href="#">Каталог</a></li>
             <li><a href="#">Инструмент</a></li>
             <li><a>Перфораторы</a></li>
             </ul>
         </nav>
         <h2>Перфораторы</h2>
     <section>
+      <form>
         <h3>Производители:</h3>
-        <input id="bosch-checkbox" name="bosch" type="checkbox" value="bosch" checked>
-        <label for="bosch-checkbox">Bosch</label>
-        <input id="intersckol-checkbox" name="intersckol" type="checkbox" value="intersckol">
-        <label for="intersckol-checkbox">Интерскол</label>
-        <input id="makita-checkbox" name="makita" type="checkbox" value="makita" checked>
-        <label for="makita-checkbox">Makita</label>
-        <input id="dewalt-checkbox" name="dewalt" type="checkbox" value="dewalt">
-        <label for="dewalt-checkbox">Dewalt</label>
-        <input id="hitachi-checkbox" name="hitachi" type="checkbox" value="hitachi">
-        <label for="hitachi-checkbox">Hitachi</label>
+          <input id="bosch-checkbox" name="bosch" type="checkbox" value="bosch" checked>
+          <label for="bosch-checkbox">Bosch</label>
+          <input id="intersckol-checkbox" name="intersckol" type="checkbox" value="intersckol">
+          <label for="intersckol-checkbox">Интерскол</label>
+          <input id="makita-checkbox" name="makita" type="checkbox" value="makita" checked>
+          <label for="makita-checkbox">Makita</label>
+          <input id="dewalt-checkbox" name="dewalt" type="checkbox" value="dewalt">
+          <label for="dewalt-checkbox">Dewalt</label>
+          <input id="hitachi-checkbox" name="hitachi" type="checkbox" value="hitachi">
+          <label for="hitachi-checkbox">Hitachi</label>
         <h3>Питание:</h3>
-        <input type="radio" name="power" id="accumulator" value="" checked>
-        <label for="accumulator">Аккумуляторные</label>
-        <input type="radio" name="power" id="electricity" value="">
-        <label for="electricity">Сетевые</label>
+          <input type="radio" name="power" id="accumulator" value="" checked>
+          <label for="accumulator">Аккумуляторные</label>
+          <input type="radio" name="power" id="electricity" value="">
+          <label for="electricity">Сетевые</label>
         <button type="submit" class="filter-btn">Показать</button>
+      </form>
     </section>
     <section>
         <div>
@@ -150,15 +153,6 @@
             <a href="#">Купить</a>
             <a href="#">В закладки</a>
         </div>
-      <!--всплывающее окно-->
-      <section>
-        <form>
-          <h4>Товар добавлен в корзину!</h4>
-          <a href="#">Оформить заказ</a>
-          <button type="reset" class="close-form">Продолжить покупки</button>
-          <button type="reset" class="close-form"></button>
-        </form>
-      </section>
     </section>
 </main>
 <footer>
@@ -200,6 +194,12 @@
         </div>
     </section>
 </footer>
+<section>
+    <p>Товар добавлен в корзину!</p>
+    <a href="#">Оформить заказ</a>
+    <a href="catalog.html">Продолжить покупки</a>
+    <button type="button" class="close-form"></button>
+</section>
 
 </body>
 </html>
