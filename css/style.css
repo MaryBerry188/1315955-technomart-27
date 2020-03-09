@@ -1,0 +1,415 @@
+
+body {
+
+    margin: 0;
+    padding: 0;
+  
+    font-family: 'Cuprum', Arial, sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #000000;
+    background-color: #ffffff;;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .button {
+      width: 140px;
+    height: 38px;
+    border: solid 1px #e5e5e5;
+    background-color: #ffffff;
+  }
+  
+  /*Header*/
+  
+  .page-header {
+  
+    width: 1200px;
+    height: 320px;
+    background-color: #f4f7f9;
+  }
+  
+  
+  .header-top-menu {
+      width: 1200px;
+      height: 320px;
+      background-color: #293449;
+  }
+  
+  
+  .search-form search{
+      width: 41px;
+    height: 12px;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.06;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  /*закладки, корзина, оформитьзаказ*/
+  .header-order-list {
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.06;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .header-order-list {
+      list-style: none;
+  }
+  /*описание*/
+  .contacts-header description {
+      font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ee3643;
+  }
+  /*телефон*/
+  .contacts-header phone {
+      font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ee3643;
+  }
+  /*адрес*/
+  .contacts-header address {
+      font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #32425c;
+  }
+  
+  /*войти-регистрация*/
+  .user-login-block {
+      font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+  }
+  /*навигация по сайту*/
+  .header-nav {
+      font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .header-nav,
+  header-nav-list {
+      list-style: none;
+  }
+  
+  /*Компания Техноматр*/
+  .main-section-title {
+      font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+  }
+  /*описание компании*/
+  .company-description {
+      font-family: PTSans;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.85;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+  }
+  
+  /*описание доставки*/
+  .delivery-companies-list {
+      font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+  }
+  
+  /*кнопка-ссылка больше о компании*/
+  .button more-about-company,
+  button write-to-us {
+      font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  
+  .company-description {
+      font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.85;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+  }
+  
+  /*навигация нижняя*/
+  .main-footer {
+      font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  
+  .footer-nav-list {
+      color: #f1f5f7;
+  }
+  
+  
+  .footer-address {
+      color: #f3f7f9;
+  }
+  
+  .catalog-nav-list {
+     color: #ffd180;
+  }
+  
+  /*копирайт 2010-2019*/
+  .copyright-top {
+      font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  /*обратная связь*/
+  .feedback,
+  copyright {
+      font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  
+  .feedback-mail {
+      color: #ffd180;
+  }
+  
+  /*аккаунт пользователя*/
+  .user-personal-list {
+      font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: left;
+    color: #32425c;
+    text-decoration: underline;
+  }
+  
+  /*аккаунт пользователя*/
+  .user-account-on {
+      font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+  }
+  
+  /*навигация-х.крошки*/
+   .breadcrumbs-container {
+       font-family: PTSans;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    text-transform: uppercase;
+   }
+  
+  /*карточка товра*/
+   .main-content-product {
+       font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #32425c;
+   }
+  
+  /*страница товара*/
+   .form-subtitle {
+       font-family: PTSans;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.76;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+   }
+  
+  /*фильтр производителя*/
+   .brand-filter-label {
+       font-family: PTSans;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+   }
+  
+  /*фильтр тип питания*/
+   .power-type {
+       font-family: PTSans;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+   }
+  
+  /*кнопка фильтра*/
+  .filter-btn {
+      font-family: PTSans;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+  }
+  
+  /*карточка товара*/
+  .item-card-name {
+      font-family: PTSans;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+  }
+  
+  /*старая цена*/
+  .oldprice {
+      font-family: PTSans;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.06;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999;
+  }
+  
+  /*новая цена*/
+  .newprice {
+      font-family: PTSans;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.06;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  /*купить*/
+  .buy-link {
+      font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  /*в корзину*/
+  .bookmark-link {
+      font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #32425c;
+  }
+  
