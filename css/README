@@ -1,7 +1,7 @@
 
 
 body {
-    
+
   margin: 0;
   padding: 0;
 
@@ -34,13 +34,13 @@ a {
 }
 
 
-}
-.header-top-menu { 
-
+.header-top-menu {
     width: 1200px;
     height: 320px;
     background-color: #293449;
 }
+
+
 .search-form search{
     width: 41px;
   height: 12px;
@@ -53,6 +53,7 @@ a {
   text-align: left;
   color: #ffffff;
 }
+
 /*закладки, корзина, оформитьзаказ*/
 .header-order-list {
   font-size: 17px;
