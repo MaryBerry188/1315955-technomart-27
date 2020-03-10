@@ -1,136 +1,188 @@
 
 body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #000000;
+  background-color: #ffffff;
+  }
+  
+a {
+text-decoration: none;
+}
 
-    margin: 0;
-    padding: 0;
-  
-    font-family: 'Cuprum', Arial, sans-serif;
-    font-size: 13px;
-    line-height: 24px;
-    font-weight: normal;
-    color: #000000;
-    background-color: #ffffff;;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  .button {
-      width: 140px;
-    height: 38px;
-    border: solid 1px #e5e5e5;
-    background-color: #ffffff;
-  }
-  
-  /*Header*/
-  
-  .page-header {
-  
-    width: 1200px;
-    height: 320px;
-    background-color: #f4f7f9;
-  }
-  
-  
-  .header-top-menu {
-      width: 1200px;
-      height: 320px;
-      background-color: #293449;
-  }
-  
-  
-  .search-form search{
-      width: 41px;
-    height: 12px;
-    font-size: 17px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.06;
-    letter-spacing: normal;
-    text-align: left;
+/* .button {
+    width: 140px;
+height: 38px;
+border: solid 1px #e5e5e5;
+background-color: #ffffff;
+} */
+
+/*Header*/
+.page-header {
+  background-color: #f4f7f9;
+}
+
+.header-nav {
+  background-color: #f4f7f9;
+  color: #32425c;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+
+.header-top-menu {
+    background-color: #293449;
     color: #ffffff;
+}
+
+.header-top-menu a {
+    color: #ffffff;
+}
+
+
+.logo {
+  background-color: #ee3643;
+  width: 220px;
+  text-transform: uppercase;
+}
+.logo:hover,
+.logo:focus {
+  background-color: #ca2c37;
+}
+.search-input {
+  font-family: inherit;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: inherit;
+  border: none;
+  }
+
+.search-input::placeholder {
+  color: inherit;
   }
   
   /*закладки, корзина, оформитьзаказ*/
-  .header-order-list {
-    font-size: 17px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.06;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
+.header-order-list {
+  font-size: 17px;
+  line-height: 18px;
+  list-style: none;
   }
-  
-  .header-order-list {
-      list-style: none;
+ 
+.bookmark:hover,
+.basket:hover {
+  background-color: #212a3a;
+  }
+.bookmarkt:focus,
+.basket:focus {
+  background-color: #161d29;
+  }
+
+.order {
+   background-color: #63a63e;
+  }
+.order:hover{
+  background-color: #5fbb2d;
+  }
+.order:focus{
+  background-color: #518534;
   }
   /*описание*/
-  .contacts-header description {
-      font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: italic;
-    line-height: 1.44;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ee3643;
+.contacts-header {
+  background-color: #f4f7f9;
+}
+.description {
+  font-size: 16px;
+  font-style: italic;
+  line-height: 23px;
+  color: #ee3643;
   }
   /*телефон*/
-  .contacts-header phone {
-      font-size: 21px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ee3643;
+.phone {
+  font-size: 21px;
+  line-height: 21px;
+  color: #ee3643;
+  border: solid 3px #ffffff
   }
   /*адрес*/
-  .contacts-header address {
-      font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
-    text-align: center;
-    color: #32425c;
+.address {
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425c;
   }
-  
   /*войти-регистрация*/
-  .user-login-block {
-      font-size: 21px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000000;
+.user-login-block {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
   }
-  /*навигация по сайту*/
-  .header-nav {
-      font-size: 17px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
+.login {
+  width: 121px;
+  color: #000000;
+  background-color: #ffffff;
   }
-  
-  .header-nav,
-  header-nav-list {
-      list-style: none;
+
+.login:hover {
+  color: #ee3643;
+  }
+.login:focus {
+  color: rgba(0, 0, 0, 0.3);
+  }
+.registration{
+  width: 150px;
+  color: #000000;
+  background-color: #ffffff;
   }
   
-  /*Компания Техноматр*/
+.registration:hover{
+  color: #ee3643;
+  }
+.registration:focus {
+  color: rgba(0, 0, 0, 0.3)
+  }
+.user-personal-item-order {
+  list-style: none;
+  }
+.my-order {
+  color: #32425c;
+  }
+.my-order:hover {
+  color: #ee3643;
+  }
+.my-order:focus {
+  color: rgba(0, 0, 0, 0.3)
+}
+  
+.personal-link {
+  color: #32425c;
+  }
+.personal-link:hover {
+  color: #ee3643;
+  }
+.personal-link:focus {
+  color: rgba(0, 0, 0, 0.3)
+}
+  
+.header-nav-list {
+  list-style: none;
+  background-color: #32425c;
+  }
+.nav-link {
+  color: #ffffff;
+  }
+ .nav-link:hover {
+    background-color: #293449;
+  } 
+.nav-link:focus {
+  background-color: #1d2739;
+}
+
+  
+  /*Компании Техноматр*/
   .main-section-title {
       font-size: 30px;
     font-weight: normal;
