@@ -1,18 +1,18 @@
-
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Cuprum', Arial, sans-serif;
-  font-size: 13px;
-  line-height: 24px;
-  font-weight: normal;
-  color: #000000;
-  background-color: #ffffff;
-  }
-  
-a {
-text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cuprum', Arial, sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #000000;
+    background-color: #ffffff;
 }
+
+a {
+    text-decoration: none;
+}
+
 
 /* .button {
     width: 140px;
@@ -21,18 +21,19 @@ border: solid 1px #e5e5e5;
 background-color: #ffffff;
 } */
 
+
 /*Header*/
+
 .page-header {
-  background-color: #f4f7f9;
+    background-color: #f4f7f9;
 }
 
 .header-nav {
-  background-color: #f4f7f9;
-  color: #32425c;
-  font-size: 14px;
-  line-height: 24px;
+    background-color: #f4f7f9;
+    color: #32425c;
+    font-size: 14px;
+    line-height: 24px;
 }
-
 
 .header-top-menu {
     background-color: #293449;
@@ -43,425 +44,355 @@ background-color: #ffffff;
     color: #ffffff;
 }
 
-
 .logo {
-  background-color: #ee3643;
-  width: 220px;
-  text-transform: uppercase;
+    background-color: #ee3643;
+    width: 220px;
+    text-transform: uppercase;
 }
+
 .logo:hover,
 .logo:focus {
-  background-color: #ca2c37;
+    background-color: #ca2c37;
 }
+
 .search-input {
-  font-family: inherit;
-  font-size: 17px;
-  line-height: 18px;
-  color: #ffffff;
-  background-color: inherit;
-  border: none;
-  }
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 18px;
+    color: #ffffff;
+    background-color: inherit;
+    border: none;
+}
 
 .search-input::placeholder {
-  color: inherit;
-  }
-  
-  /*закладки, корзина, оформитьзаказ*/
+    color: inherit;
+}
+
+
+/*закладки, корзина, оформитьзаказ*/
+
 .header-order-list {
-  font-size: 17px;
-  line-height: 18px;
-  list-style: none;
-  }
- 
+    font-size: 17px;
+    line-height: 18px;
+    list-style: none;
+}
+
 .bookmark:hover,
 .basket:hover {
-  background-color: #212a3a;
-  }
+    background-color: #212a3a;
+}
+
 .bookmarkt:focus,
 .basket:focus {
-  background-color: #161d29;
-  }
+    background-color: #161d29;
+}
 
 .order {
-   background-color: #63a63e;
-  }
-.order:hover{
-  background-color: #5fbb2d;
-  }
-.order:focus{
-  background-color: #518534;
-  }
-  /*описание*/
+    background-color: #63a63e;
+}
+
+.order:hover {
+    background-color: #5fbb2d;
+}
+
+.order:focus {
+    background-color: #518534;
+}
+
+
+/*описание*/
+
 .contacts-header {
-  background-color: #f4f7f9;
+    background-color: #f4f7f9;
 }
+
 .description {
-  font-size: 16px;
-  font-style: italic;
-  line-height: 23px;
-  color: #ee3643;
-  }
-  /*телефон*/
+    font-size: 16px;
+    font-style: italic;
+    line-height: 23px;
+    color: #ee3643;
+}
+
+
+/*телефон*/
+
 .phone {
-  font-size: 21px;
-  line-height: 21px;
-  color: #ee3643;
-  border: solid 3px #ffffff
-  }
-  /*адрес*/
+    font-size: 21px;
+    line-height: 21px;
+    color: #ee3643;
+    border: solid 3px #ffffff
+}
+
+
+/*адрес*/
+
 .address {
-  font-size: 14px;
-  line-height: 24px;
-  color: #32425c;
-  }
-  /*войти-регистрация*/
-.user-login-block {
-  font-size: 21px;
-  line-height: 21px;
-  color: #000000;
-  }
-.login {
-  width: 121px;
-  color: #000000;
-  background-color: #ffffff;
-  }
-
-.login:hover {
-  color: #ee3643;
-  }
-.login:focus {
-  color: rgba(0, 0, 0, 0.3);
-  }
-.registration{
-  width: 150px;
-  color: #000000;
-  background-color: #ffffff;
-  }
-  
-.registration:hover{
-  color: #ee3643;
-  }
-.registration:focus {
-  color: rgba(0, 0, 0, 0.3)
-  }
-.user-personal-item-order {
-  list-style: none;
-  }
-.my-order {
-  color: #32425c;
-  }
-.my-order:hover {
-  color: #ee3643;
-  }
-.my-order:focus {
-  color: rgba(0, 0, 0, 0.3)
-}
-  
-.personal-link {
-  color: #32425c;
-  }
-.personal-link:hover {
-  color: #ee3643;
-  }
-.personal-link:focus {
-  color: rgba(0, 0, 0, 0.3)
-}
-  
-.header-nav-list {
-  list-style: none;
-  background-color: #32425c;
-  }
-.nav-link {
-  color: #ffffff;
-  }
- .nav-link:hover {
-    background-color: #293449;
-  } 
-.nav-link:focus {
-  background-color: #1d2739;
-}
-
-  
-  /*Компании Техноматр*/
-  .main-section-title {
-      font-size: 30px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000000;
-  }
-  /*описание компании*/
-  .company-description {
-      font-family: PTSans;
-    font-size: 13px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.85;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000000;
-  }
-  
-  /*описание доставки*/
-  .delivery-companies-list {
-      font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.11;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000000;
-  }
-  
-  /*кнопка-ссылка больше о компании*/
-  .button more-about-company,
-  button write-to-us {
-      font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.29;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  
-  .company-description {
-      font-size: 13px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.85;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000000;
-  }
-  
-  /*навигация нижняя*/
-  .main-footer {
-      font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-  }
-  
-  
-  .footer-nav-list {
-      color: #f1f5f7;
-  }
-  
-  
-  .footer-address {
-      color: #f3f7f9;
-  }
-  
-  .catalog-nav-list {
-     color: #ffd180;
-  }
-  
-  /*копирайт 2010-2019*/
-  .copyright-top {
-      font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.13;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-  }
-  
-  /*обратная связь*/
-  .feedback,
-  copyright {
-      font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.13;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-  }
-  
-  
-  .feedback-mail {
-      color: #ffd180;
-  }
-  
-  /*аккаунт пользователя*/
-  .user-personal-list {
-      font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.13;
-    letter-spacing: normal;
-    text-align: left;
+    font-size: 14px;
+    line-height: 24px;
     color: #32425c;
-    text-decoration: underline;
-  }
-  
-  /*аккаунт пользователя*/
-  .user-account-on {
-      font-size: 21px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: normal;
-    text-align: left;
+}
+
+
+/*войти-регистрация*/
+
+.user-login-block {
+    font-size: 21px;
     color: #000000;
-  }
-  
-  /*навигация-х.крошки*/
-   .breadcrumbs-container {
-       font-family: PTSans;
-    font-size: 13px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.38;
-    letter-spacing: normal;
-    text-align: left;
+}
+
+.login {
+    width: 121px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.login:hover,
+.login:focus {
+    color: #ee3643;
+}
+
+.login:active {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.registration {
+    width: 150px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.registration:hover,
+.registration:focus {
+    color: #ee3643;
+}
+
+.registration:active {
+    color: rgba(0, 0, 0, 0.3)
+}
+
+.user-account-on {
+    font-size: 21px;
+    line-height: 21px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.user-account-on:hover,
+.user-account-on:focus {
+    color: #ee3643;
+}
+
+.user-account-on:active {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.user-personal-list {
+    font-size: 16px;
+    color: #32425c;
+    list-style: none;
+}
+
+.my-order {
+    color: #32425c;
+}
+
+.my-order:hover,
+.my-order:focus {
+    color: #ee3643;
+    text-decoration: underline;
+}
+
+.my-order:active {
+    color: rgba(0, 0, 0, 0.3)
+}
+
+.personal-link {
+    color: #32425c;
+}
+
+.personal-link:hover,
+.personal-link:focus {
+    color: #ee3643;
+    text-decoration: underline;
+}
+
+.personal-link:active {
+    color: rgba(0, 0, 0, 0.3)
+}
+
+.header-nav-list {
+    font-size: 17px;
+    list-style: none;
+    background-color: #32425c;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    background-color: #293449;
+}
+
+.nav-link:focus {
+    background-color: #1d2739;
+}
+
+.nav-link:active {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+/*Компании Техноматр*/
+
+.main-section-title {
+    height: 21px;
+    font-size: 30px;
+    line-height: 30px;
     color: #000000;
     text-transform: uppercase;
-   }
-  
-  /*карточка товра*/
-   .main-content-product {
-       font-size: 30px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: normal;
-    text-align: left;
-    color: #32425c;
-   }
-  
-  /*страница товара*/
-   .form-subtitle {
-       font-family: PTSans;
-    font-size: 17px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.76;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000000;
-   }
-  
-  /*фильтр производителя*/
-   .brand-filter-label {
-       font-family: PTSans;
-    font-size: 15px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000000;
-   }
-  
-  /*фильтр тип питания*/
-   .power-type {
-       font-family: PTSans;
-    font-size: 15px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000000;
-   }
-  
-  /*кнопка фильтра*/
-  .filter-btn {
-      font-family: PTSans;
+}
+
+
+/*описание компании*/
+
+.company-description {
+    font-family: PTSans;
     font-size: 13px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.38;
-    letter-spacing: normal;
-    text-align: center;
+    line-height: 124px;
     color: #000000;
-  }
-  
-  /*карточка товара*/
-  .item-card-name {
-      font-family: PTSans;
+}
+
+
+/*описание доставки*/
+
+.delivery-companies-list {
     font-size: 18px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.11;
-    letter-spacing: normal;
-    text-align: center;
     color: #000000;
-  }
-  
-  /*старая цена*/
-  .oldprice {
-      font-family: PTSans;
-    font-size: 17px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.06;
-    letter-spacing: normal;
-    text-align: center;
-    color: #999999;
-  }
-  
-  /*новая цена*/
-  .newprice {
-      font-family: PTSans;
-    font-size: 17px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.06;
-    letter-spacing: normal;
-    text-align: center;
+}
+
+
+/*кнопка-ссылка больше о компании*/
+
+.button more-about-company,
+button write-to-us {
+    font-size: 14px;
+}
+
+.company-description {
+    font-size: 13px;
+    line-height: 1.85;
+}
+
+
+/*навигация нижняя*/
+
+.footer-nav {
+    background-color: #32425c;
+    font-size: 18px;
+}
+
+.logo-footer {
+    font-size: 23px;
+    background-color: #ee3643;
     color: #ffffff;
-  }
-  
-  /*купить*/
-  .buy-link {
-      font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.29;
-    letter-spacing: normal;
-    text-align: center;
+}
+
+.logo-footer:hover,
+.logo-footer:focus {
+    background-color: #ca2c37;
+}
+
+.footer-nav-list {
+    list-style: none;
+}
+
+.footer-nav-link {
+    color: #f1f5f7
+}
+
+.footer-nav-link:hover,
+.footer-nav-link:focus {
+    text-decoration: underline;
+}
+
+.footer-nav-link:active {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none
+}
+
+.footer-address {
+    color: #f3f7f9;
+}
+
+.catalog-nav-list {
+    list-style: none;
+}
+
+.catalog-nav-link {
+    color: #ffd180;
+}
+
+.catalog-nav-link:hover,
+.catalog-nav-link:focus {
+    text-decoration: underline;
+}
+
+.catalog-nav-link:active {
+    color: rgba(255, 209, 128, 0.5);
+    text-decoration: none;
+}
+
+
+/*копирайт 2010-2019*/
+
+.main-footer {
+    background-color: #293449;
+}
+
+.copyright-top {
+    font-size: 16px;
+    line-height: 18px;
     color: #ffffff;
-  }
-  
-  /*в корзину*/
-  .bookmark-link {
-      font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.29;
-    letter-spacing: normal;
-    text-align: center;
-    color: #32425c;
-  }
-  
+}
+
+.socials-list {
+    list-style: none;
+}
+
+.socials-item-list {
+    background-color: #212a3a;
+    color: #ffffff;
+}
+
+.socials-item-list:hover,
+.socials-item-list:focus {
+    background-color: #ee3643;
+}
+
+
+/*обратная связь*/
+
+.feedback,
+.copyright {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.feedback-mail {
+    font-size: 16px;
+    color: #ffd180;
+}
+
+.feedback-mail:hover {
+    text-decoration: underline;
+}
+
+.feedback-mail:focus {
+    text-decoration: underline;
+}
+
+.feedback-mail:active {
+    color: #ee3643;
+}
