@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>HTML Academy: Техномарт Каталог товаров</title>
-    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700%7CPT+Sans&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum|PT+Sans&display=swap" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -15,7 +15,7 @@
             <h1 class="visually-hidden">Интернет-магазин строительных материалов и инструментов для ремонта Техномарт</h1>
             <div class="header-top-menu">
                 <div>
-                    <a class="logo" href="">Техномарт</a>
+                    <a class="logo" href="index.html">Техномарт</a>
                 </div>
                 <div>
                     <form class="search-form" method="get" action="https://echo.htmlacademy.ru">
@@ -66,7 +66,7 @@
         <nav class="breadcrumbs-container">
             <ul class="breadcrumbs-list">
                 <li class="breadcrumbs-item">
-                    <a class="home-icon" href="index.html">Главная</a></li>
+                    <a class="breadcrumbs-link" href="index.html">Главная</a></li>
                 <li class="breadcrumbs-item">
                     <a class="breadcrumbs-link" href="#">Каталог</a></li>
                 <li class="breadcrumbs-item">
@@ -77,7 +77,7 @@
         </nav>
         <h2 class="main-content-product">Перфораторы</h2>
         <section class="filter-block">
-            <form class="filters-form" method="get" action="https://echo.htmlacademy.ru">
+            <form class="filters-form" method="get" action="">
                 <h3 class="form-subtitle">Производители:</h3>
                 <input class="brand-filter-item" id="bosch-checkbox" name="bosch" type="checkbox" value="bosch" checked>
                 <label class="brand-filter-label" for="bosch-checkbox">Bosch</label>
@@ -175,7 +175,7 @@
     <footer>
         <div class="footer-nav">
             <div>
-                <a class="logo logo-footer" href="">Техномарт</a>
+                <a class="logo logo-footer" href="index.html">Техномарт</a>
                 <ul class="footer-nav-list">
                     <li class="footer-nav-item"><a class="footer-nav-link" href="index.html">Компания</a></li>
                     <li class="footer-nav-item"><a class="footer-nav-link" href="#">Новости</a></li>
@@ -211,11 +211,14 @@
         </div>
 
     </footer>
-    <section>
-        <p>Товар добавлен в корзину!</p>
-        <a href="#">Оформить заказ</a>
-        <a href="catalog.html">Продолжить покупки</a>
-        <button type="button" class="close-form"></button>
+    <section class="buy-order-catalog">
+        <h2 class="visually-hidden">Покупка товара</h2>
+        <p class="order-in-basket">Товар добавлен в корзину!</p>
+        <div class="button-buy-order">
+            <a class="buy-order" href="#">Оформить заказ</a>
+            <a class="to-catalog" href="catalog.html">Продолжить покупки</a>
+            <button class="close-form" type="button">Закрыть</button>
+        </div>
     </section>
 </body>
 

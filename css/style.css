@@ -45,8 +45,8 @@ background-color: #ffffff;
 }
 
 .logo {
+    font-size: 19px;
     background-color: #ee3643;
-    width: 220px;
     text-transform: uppercase;
 }
 
@@ -257,9 +257,9 @@ background-color: #ffffff;
 /*описание компании*/
 
 .company-description {
-    font-family: PTSans;
+    font-family: 'PT Sans', sans-serif;
     font-size: 13px;
-    line-height: 124px;
+    line-height: 24px;
     color: #000000;
 }
 
@@ -268,21 +268,46 @@ background-color: #ffffff;
 
 .delivery-companies-list {
     font-size: 18px;
-    line-height: 1.11;
+    line-height: 20px;
+    color: #000000;
+}
+
+.delivery-companies-list {
+    list-style: none;
+}
+
+.delivery-companies-item {
+    font-size: 18px;
+    line-height: 20px;
     color: #000000;
 }
 
 
 /*кнопка-ссылка больше о компании*/
 
-.button more-about-company,
-button write-to-us {
+.more-about-company {
     font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ef4652;
+    text-transform: uppercase;
 }
 
 .company-description {
     font-size: 13px;
-    line-height: 1.85;
+    line-height: 24px;
+}
+
+.write-to-us {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ee3643;
+    text-transform: uppercase;
 }
 
 
@@ -302,6 +327,10 @@ button write-to-us {
 .logo-footer:hover,
 .logo-footer:focus {
     background-color: #ca2c37;
+}
+
+.logo-footer:active {
+    background-color: #ee3643;
 }
 
 .footer-nav-list {
@@ -395,4 +424,227 @@ button write-to-us {
 
 .feedback-mail:active {
     color: #ee3643;
+}
+
+.breadcrumbs-list {
+    list-style: none;
+}
+
+.breadcrumbs-link {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.main-content-product {
+    font-size: 30px;
+    color: #32425c;
+    text-transform: uppercase;
+}
+
+
+/*фильтр*/
+
+.form-subtitle {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    color: #000;
+}
+
+.brand-filter-label,
+.power-type {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.filter-btn {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    color: #000000;
+    text-transform: uppercase;
+    border: solid 1px #e5e5e5;
+    background-color: #ffffff;
+}
+
+.item-card-name {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.oldprice {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #999999;
+}
+
+.newprice,
+.price,
+.catalog-item-new {
+    width: 65px;
+    height: 25px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    background-color: #e9292a;
+    font-weight: bold;
+    color: #fff;
+}
+
+.buy-link {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    background-color: #63a63e;
+    box-shadow: inset 0px -3px 0 0 #367315;
+}
+
+.buy-link:hover,
+.buy-link:focus {
+    background-color: #5fbb2d;
+}
+
+.buy-link:active {
+    background-color: #518534;
+}
+
+.bookmark-link {
+    font-size: 14px;
+    line-height: 18px;
+    color: #32425c;
+    background-color: #ffffff;
+    border: solid 3px #63a63e;
+}
+
+.bookmark-link:hover,
+.bookmark-link:focus {
+    border: solid 3px #32425c;
+}
+
+.bookmark-link:active {
+    color: rgba(50, 66, 92, 0.3);
+    border: solid 3px rgba(50, 66, 92, 0.3);
+}
+
+.feedback-modal {
+    width: 620px;
+    height: 430px;
+    box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
+    border-top: 7px solid #ee3643;
+}
+
+.feedback-name {
+    width: 72px;
+    height: 13px;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: left;
+    color: #000000;
+}
+
+.feedback-input-name {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    color: #a9a9a9;
+    width: 220px;
+    height: 38px;
+    border: solid 2px #dee3e4;
+    background-color: #ffffff;
+}
+
+.feedback-email {
+    width: 79px;
+    height: 13px;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: left;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.feedback-input-email {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    color: #a9a9a9;
+    width: 220px;
+    height: 38px;
+    border: solid 2px #dee3e4;
+    background-color: #ffffff;
+}
+
+.feedback-messenge {
+    width: 96px;
+    height: 13px;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: left;
+    color: #000000;
+}
+
+.feedback-input-messenge {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    color: #a9a9a9;
+    width: 460px;
+    height: 114px;
+    border: solid 2px #dee3e4;
+    background-color: #ffffff;
+}
+
+.button-feedback {
+    width: 620px;
+    height: 112px;
+    background-color: #f4f4f4;
+}
+
+.submit-modal-form {
+    font-family: 'Cuprum', Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #ee3643;
+}
+
+.modal-map {
+    width: 940px;
+    height: 446px;
+}
+
+.buy-order-catalog {
+    width: 620px;
+    height: 282px;
+    box-shadow: 0px 20px 40px 0 rgba(41, 52, 73, 0.75);
+    border-top: 7px solid #ee3643;
+}
+
+.order-in-basket {
+    font-family: 'Cuprum', Arial, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    color: 000000;
+}
+
+.button-buy-order {
+    width: 620px;
+    height: 112px;
+    background-color: #f1f1f1;
+}
+
+.buy-order {
+    font-family: 'Cuprum', Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #ee3643;
+}
+
+.to-catalog {
+    font-family: 'Cuprum', Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000000;
+    background: #ffffff;
 }
