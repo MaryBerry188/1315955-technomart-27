@@ -1,3 +1,8 @@
+html,
+body {
+    min-height: 3151px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -13,19 +18,54 @@ a {
     text-decoration: none;
 }
 
+.wrapper {
+    width: 960px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin: 0 auto;
+}
 
-/* .button {
-    width: 140px;
-height: 38px;
-border: solid 1px #e5e5e5;
-background-color: #ffffff;
-} */
+
+/*
+.visually-hidden {
+}
+*/
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+.button {
+    padding: 5px 10px;
+    color: #ffffff;
+    background-color: #ee3643;
+    display: inline-block;
+}
 
 
 /*Header*/
 
 .page-header {
+    min-height: 320px;
     background-color: #f4f7f9;
+}
+
+.header-top-menu {
+    background-color: #293449;
+    color: #ffffff;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-nav {
@@ -35,19 +75,18 @@ background-color: #ffffff;
     line-height: 24px;
 }
 
-.header-top-menu {
-    background-color: #293449;
-    color: #ffffff;
-}
-
 .header-top-menu a {
     color: #ffffff;
 }
 
 .logo {
-    font-size: 19px;
+    width: 220px;
+    font-size: 27px;
     background-color: #ee3643;
     text-transform: uppercase;
+    display: inline-block;
+    box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+    ;
 }
 
 .logo:hover,
@@ -74,7 +113,13 @@ background-color: #ffffff;
 .header-order-list {
     font-size: 17px;
     line-height: 18px;
+    display: flex;
     list-style: none;
+}
+
+.header-order-item {
+    justify-content: space-between;
+    padding: 0 10px;
 }
 
 .bookmark:hover,
@@ -103,12 +148,14 @@ background-color: #ffffff;
 /*описание*/
 
 .contacts-header {
+    display: flex;
+    justify-content: space-between;
     background-color: #f4f7f9;
 }
 
 .description {
-    font-size: 16px;
     font-style: italic;
+    font-size: 16px;
     line-height: 23px;
     color: #ee3643;
 }
@@ -221,6 +268,12 @@ background-color: #ffffff;
 }
 
 .header-nav-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.header-nav-list {
     font-size: 17px;
     list-style: none;
     background-color: #32425c;
@@ -245,6 +298,11 @@ background-color: #ffffff;
 
 /*Компании Техноматр*/
 
+.about-us {
+    display: flex;
+    justify-content: space-between;
+}
+
 .main-section-title {
     height: 21px;
     font-size: 30px;
@@ -261,6 +319,10 @@ background-color: #ffffff;
     font-size: 13px;
     line-height: 24px;
     color: #000000;
+}
+
+.pic-map {
+    display: block;
 }
 
 
@@ -313,12 +375,27 @@ background-color: #ffffff;
 
 /*навигация нижняя*/
 
+.footer-container {
+    height: 193px;
+}
+
+.footer-nav {
+    background-color: #32425c;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
 .footer-nav {
     background-color: #32425c;
     font-size: 18px;
 }
 
 .logo-footer {
+    height: 68px;
     font-size: 23px;
     background-color: #ee3643;
     color: #ffffff;
@@ -334,10 +411,13 @@ background-color: #ffffff;
 }
 
 .footer-nav-list {
+    display: flex;
     list-style: none;
 }
 
 .footer-nav-link {
+    justify-content: space-between;
+    padding: 0 10px;
     color: #f1f5f7
 }
 
@@ -351,15 +431,26 @@ background-color: #ffffff;
     text-decoration: none
 }
 
+.footer-catalog {
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer-address {
     color: #f3f7f9;
 }
 
 .catalog-nav-list {
+    display: flex;
     list-style: none;
 }
 
 .catalog-nav-link {
+    justify-content: space-between;
+    padding: 0 10px;
     color: #ffd180;
 }
 
@@ -377,6 +468,9 @@ background-color: #ffffff;
 /*копирайт 2010-2019*/
 
 .main-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
     background-color: #293449;
 }
 
@@ -387,6 +481,9 @@ background-color: #ffffff;
 }
 
 .socials-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
     list-style: none;
 }
 
@@ -402,6 +499,12 @@ background-color: #ffffff;
 
 
 /*обратная связь*/
+
+.footer-feedback {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
 
 .feedback,
 .copyright {
@@ -494,7 +597,6 @@ background-color: #ffffff;
 }
 
 .buy-link {
-    font-family: 'Cuprum', sans-serif;
     font-size: 14px;
     line-height: 18px;
     color: #ffffff;
@@ -601,7 +703,6 @@ background-color: #ffffff;
 }
 
 .submit-modal-form {
-    font-family: 'Cuprum', Arial, sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     color: #ffffff;
@@ -621,7 +722,6 @@ background-color: #ffffff;
 }
 
 .order-in-basket {
-    font-family: 'Cuprum', Arial, sans-serif;
     font-size: 30px;
     line-height: 30px;
     color: 000000;
@@ -634,7 +734,6 @@ background-color: #ffffff;
 }
 
 .buy-order {
-    font-family: 'Cuprum', Arial, sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     color: #ffffff;
@@ -642,7 +741,6 @@ background-color: #ffffff;
 }
 
 .to-catalog {
-    font-family: 'Cuprum', Arial, sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     color: #000000;
