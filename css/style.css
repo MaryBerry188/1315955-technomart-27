@@ -59,6 +59,7 @@ a {
 }
 
 .header-top-menu {
+    height: 42px;
     background-color: #293449;
     color: #ffffff;
 }
@@ -80,12 +81,13 @@ a {
 }
 
 .logo {
-    width: 220px;
     font-size: 27px;
     background-color: #ee3643;
     text-transform: uppercase;
     display: inline-block;
     box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+    padding: 12px 55px 11px 55px;
+    border: 1px transparent;
     ;
 }
 
@@ -95,6 +97,8 @@ a {
 }
 
 .search-input {
+    width: 270px;
+    height: 42px;
     font-family: inherit;
     font-size: 17px;
     line-height: 18px;
@@ -105,6 +109,11 @@ a {
 
 .search-input::placeholder {
     color: inherit;
+}
+
+.search-input:hover,
+.search-input:focus {
+    background-color: #212a3a;
 }
 
 
@@ -148,32 +157,46 @@ a {
 /*описание*/
 
 .contacts-header {
+    height: 156px;
     display: flex;
     justify-content: space-between;
-    background-color: #f4f7f9;
 }
 
 .description {
-    font-style: italic;
+    width: 196px;
+    height: 60px;
     font-size: 16px;
     line-height: 23px;
+    display: block;
+    font-style: italic;
+    font-size: 16px;
     color: #ee3643;
+    margin: 49px 20px 44px 40px;
 }
 
 
 /*телефон*/
 
+.header-phone-adressee {
+    margin: 44px 0px 44px 0px;
+}
+
 .phone {
+    width: 270px;
+    display: block;
     font-size: 21px;
     line-height: 21px;
     color: #ee3643;
-    border: solid 3px #ffffff
+    border: solid 3px #ffffff;
+    padding: 8px 15px 8px 34px
 }
 
 
 /*адрес*/
 
 .address {
+    width: 250px;
+    height: 13px;
     font-size: 14px;
     line-height: 24px;
     color: #32425c;
@@ -268,19 +291,19 @@ a {
 }
 
 .header-nav-list {
+    height: 12px;
+    font-size: 17px;
     display: flex;
     justify-content: space-between;
-    padding: 0 10px;
-}
-
-.header-nav-list {
-    font-size: 17px;
     list-style: none;
     background-color: #32425c;
+    border-bottom: 3px solid #293449;
+    padding: 20px 30px;
 }
 
 .nav-link {
     color: #ffffff;
+    padding: 20px 30px;
 }
 
 .nav-link:hover {
@@ -381,17 +404,13 @@ a {
 
 .footer-nav {
     background-color: #32425c;
+    font-size: 18px;
 }
 
 .nav-footer {
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
-}
-
-.footer-nav {
-    background-color: #32425c;
-    font-size: 18px;
 }
 
 .logo-footer {
@@ -467,11 +486,14 @@ a {
 
 /*копирайт 2010-2019*/
 
+.social-footer {
+    background-color: #293449;
+}
+
 .main-footer {
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
-    background-color: #293449;
 }
 
 .copyright-top {
